@@ -1,0 +1,78 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+}
+body {
+	background-image: url('./images/landing-page-image-02.PNG');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* Navbar Start */
+.n-main {
+	padding: 1% 5%;
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(189,187,187,0.3) 100%);
+}
+.n-logo {
+	height: 70px;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul li a {
+	color: #060505;
+	margin: 70px 20px;
+	text-decoration: none;
+	font-weight: 500;
+}
+nav ul li a:hover {
+	color: #8e7e68;
+	transition: .2s;
+}
+button {
+	border: none;
+	background: #060505;
+	color: #ecf0f1;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-weight: 500;
+}
+.n-button {
+	background-position: center;
+  	transition: background 0.8s;
+}
+.n-button:hover {
+	cursor: pointer;
+}
+.n-button:active {
+	background: #060505 radial-gradient(circle, transparent 1%, #060505 1%) center/15000%;
+	background-color: #ecf0f1;
+	background-size: 100%;
+	transition: background 0s;
+}
+/* Navbar End */
+
+/* Intro Start */
+.i-left {
+	width: 50%;
+	height: 100vh;
+	background-color: red;
+	display: flex;
+	flex: 1;
+}
+.i-right {
+	width: 50%;
+	height: 100vh;
+	background-color: blue;
+	display: flex;
+	flex: 1;
+}
