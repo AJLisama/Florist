@@ -1,44 +1,90 @@
 * {
-	padding: 0;
-	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
 }
-
-.landing {
+body {
+	padding: 0;
+	margin: 0;
+}
+/*.landing {
 	width: 100%;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 }
+*/
+
+/*Navbar Start*/
 .n {
-	width: 100%;
-	height: 10%;
-	padding: 0 5%;
-	background-color: crimson;
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
-	overflow: hidden;
+	align-items: center;
+	background-color: #333;
+	color: white;
+	width: 100%;
 }
 .n-logo {
-	background-color: greenyellow;
-	height: 138px;
+	font-size: 1.5rem;
+	margin: .5rem;
+	color: white;
+}
+/*.n-logo2 {
+	height: 68px;
+	margin: 0 .5rem;
+	display: block;
+}*/
+.n-links ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.n-links li {
+	list-style: none;
+}
+.n-links li:hover {
+	background-color: #555;
 }
 .n-links a {
-	font-size: 38px;
-	background-color: blue;
+	color: white;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 1rem;
+	display: block;
 }
-.n-links {
-	background-color: gray;
-	width: 50%;
-	height: 100%;
-	display: flex;
-	align-items: center;
+.n-toggle {
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
 	justify-content: space-between;
+	width: 30px;
+	height: 21px;
 }
+.n-toggle .bar {
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 1.5px;
+}
+@media only screen and (max-width: 400px) {
+	.n-toggle{
+		display: flex;
+	}
+	.n-links {
+		display: none;
+	}
+	body {
+		background-color: red;
+	}
+	.n {
+		flex-direction: column;
+	}
+}
+/*Navbar Ends*/
 
-.i {
+
+/*.i {
 	width: 100%;
 	height: 90%;
 	background-color: lightblue;
@@ -57,4 +103,4 @@
 .i-img {
 	width: 100%;
 	height: 100%;
-}
+}*/
