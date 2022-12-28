@@ -2,88 +2,59 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Playfair Display', serif;
-}
-body {
-	background-image: url('./images/landing-page-image-02.PNG');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+	font-family: 'Raleway', sans-serif;
 }
 
-/* Navbar Start */
-.n-main {
+.landing {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.n {
+	width: 100%;
 	height: 10%;
+	padding: 0 5%;
+	background-color: crimson;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 1% 10%;
-	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(189,187,187,0.3) 100%);
+	overflow: hidden;
 }
 .n-logo {
-	height: 8vh;
+	background-color: greenyellow;
+	height: 138px;
 }
-ul li {
-	list-style-type: none;
-	display: inline-block;
+.n-links a {
+	font-size: 38px;
+	background-color: blue;
 }
-ul li a {
-	color: #060505;
-	margin: 70px 20px;
-	text-decoration: none;
-	font-weight: 500;
+.n-links {
+	background-color: gray;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
-ul li a:hover {
-	color: #8e7e68;
-	transition: .2s;
-}
-button {
-	border: none;
-	background: #060505;
-	color: #ecf0f1;
-	padding: 10px 15px;
-	border-radius: 5px;
-	font-weight: 500;
-}
-button {
-	background-position: center;
-  	transition: background 0.8s;
-}
-button:hover {
-	cursor: pointer;
-}
-button:active {
-	background: #060505 radial-gradient(circle, transparent 1%, #060505 1%) center/15000%;
-	background-color: #ecf0f1;
-	background-size: 100%;
-	transition: background 0s;
-}
-/* Navbar End */
 
-/* Intro Start */
 .i {
+	width: 100%;
+	height: 90%;
+	background-color: lightblue;
 	display: flex;
 }
 .i-left {
-	display: flex;
-	align-items: center;
-	margin-left: 10%;
-	height: 87vh;
-	flex: 1;
+	width: 50%;
+	height: 100%;
+	background-color: orange;
 }
-.i-left-wrapper {
-	width: 70%;
-}
-.i-left-wrapper-p {
-	margin: 10% 0;
-	font-weight: 500;
-	font-size: 20px;
-}
-
-
 .i-right {
-	margin-right: 10%;
-	height: 87vh;
-	/*background-color: blue;*/
-	flex: 1;
+	width: 50%;
+	height: 100%;
+	background-color: violet;
+}
+.i-img {
+	width: 100%;
+	height: 100%;
 }
