@@ -99,11 +99,11 @@
 	width: 100%;
 	height: 89.5vh;
 	display: flex;
-	background-color: crimson;
+	/*background-color: crimson;*/
 }
 .i-left {
 	flex: 1;
-	background-color: deepskyblue;
+	/*background-color: deepskyblue;*/
 }
 .i-right {
 	flex: 1;
@@ -112,5 +112,14 @@
 
 
 .ir-wrapper {
-	
+
+}
+/*.ir-bg-img {
+	width: 100%;
+	height: 89.5vh;
+	object-fit: cover;
+}*/
+
+.ir-content {
+	background-image: ;
 }
