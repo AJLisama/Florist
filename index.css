@@ -18,7 +18,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: whitesmoke;
+	background-color: white;
 	color: white;
 	width: 100%;
 }
@@ -41,7 +41,7 @@
 	list-style: none;
 }
 .n-links li:hover {
-	background-color: white;
+	background-color: #fffdd0;
 }
 .n-links a {
 	color: #333;
@@ -63,7 +63,7 @@
 .n-toggle .bar {
 	height: 3px;
 	width: 100%;
-	background-color: white;
+	background-color: #333;
 	border-radius: 1.5px;
 }
 @media screen and (max-width: 600px) {
@@ -95,23 +95,22 @@
 /*Navbar Ends*/
 
 
-/*.i {
+.i {
 	width: 100%;
-	height: 90%;
-	background-color: lightblue;
+	height: 89.5vh;
 	display: flex;
+	background-color: crimson;
 }
 .i-left {
-	width: 50%;
-	height: 100%;
-	background-color: orange;
+	flex: 1;
+	background-color: deepskyblue;
 }
 .i-right {
-	width: 50%;
-	height: 100%;
-	background-color: violet;
+	flex: 1;
+	background-color: burlywood;
 }
-.i-img {
-	width: 100%;
-	height: 100%;
-}*/
+
+
+.ir-wrapper {
+	
+}
