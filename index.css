@@ -5,8 +5,8 @@
 	font-family: 'Raleway', sans-serif;
 }
 body {
-	/*background-color: #fcfcfc;*/
-	background-color: black;
+	background-color: #fcfcfc;
+	/*background-color: black;*/
 }
 
 
@@ -146,7 +146,7 @@ body {
 
 .p-church {
 	display: flex;
-	padding: 0px 40px;
+	/*padding: 0px 40px;*/
 }
 
 
@@ -154,12 +154,13 @@ body {
 .pc-img {
 	width: 600px;
 	height: 343px;
+	display: block;
 }
 .slideshow-container {
 	/*width: 600px;
 	height: 343px;*/
 	max-width: 600px;
-	margin: auto;
+	/*margin: auto;*/
 	position: relative;
 }
 .mySlides {
@@ -186,7 +187,7 @@ body {
 .prev:hover, .next:hover {
 	background-color: rgba(0, 0, 0, 0.8);
 }
-.text {
+/*.text {
 	color: #f2f2f2;
 	font-size: 15px;
 	padding: 8px 12px;
@@ -194,13 +195,18 @@ body {
 	bottom: 8px;
 	width: 100%;
 	text-align: center;
-}
+}*/
 .numbertext {
 	color: #f2f2f2;
 	font-size: 12px;
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
+}
+.dot-container {
+	position: absolute;
+	bottom: 0;
+	left: 46%;
 }
 .dot {
 	cursor: pointer;
@@ -214,6 +220,10 @@ body {
 }
 .active, .dot:hover {
 	background-color: #717171;
+}
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 
 
