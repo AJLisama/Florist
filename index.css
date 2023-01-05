@@ -21,6 +21,7 @@
 	background-color: white;
 	color: white;
 	width: 100%;
+	padding: 0 40px;
 }
 /*.n-logo {
 	font-size: 1.5rem;
@@ -29,12 +30,9 @@
 }*/
 .n-logo2 {
 	height: 68px;
-	margin: 0 0.5rem;
 	display: block;
 }
 .n-links ul {
-	margin: 0;
-	padding: 0;
 	display: flex;
 }
 .n-links li {
@@ -42,6 +40,8 @@
 }
 .n-links li:hover {
 	background-color: #fffdd0;
+	border: none;
+	border-radius: 15px;
 }
 .n-links a {
 	color: #333;
@@ -99,30 +99,53 @@
 	width: 100%;
 	height: 89.5vh;
 	display: flex;
-	/*background-color: crimson;*/
 }
 .i-left {
-	flex: 1;
-	/*background-color: deepskyblue;*/
+	flex: 5;
 }
 .i-right {
-	flex: 1;
+	flex: 7;
+}
+
+.il-wrapper{
+/*	width: 100%;*/
+	height: 89.5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.il-content {
+	width: 100%;
+	padding-left: 40px;
+}
+.il-content h1 {
+	display: block;
+}
+.il-content p {
+	display: block;
+	/*background-color: yellowgreen;*/
+	margin: 20px 0;
+	font-size: 24px;
+}
+.il-content button {
+	width: 106px;
+	height: 36px;
+	color: white;
+	font-size: 18px;
+	border: none;
+	border-radius: 18px;
+	background-color: #333;
+	cursor: pointer;
 }
 
 
 .ir-wrapper {
-
-}
-/*.ir-bg-img {
-	width: 100%;
-	height: 89.5vh;
-	object-fit: cover;
-}*/
-
-.ir-content {
 	width: 100%;
 	height: 89.5vh;
 	background-image: url('./images/i-bg-img-1.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+.ir-content {
+	display: none;
 }
