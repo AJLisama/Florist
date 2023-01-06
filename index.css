@@ -36,6 +36,7 @@ body {
 .n-links a {
 	color: #333;
 	font-weight: 500;
+	font-size: 20px;
 	text-decoration: none;
 	padding: 1rem;
 	display: block;
@@ -133,129 +134,9 @@ body {
 
 
 /* Product Start */
-/*.p-h1 {
-	margin: 40px 0;
-	font-size: 40px;
-	text-align: center;
-}
-
-.p-church {
-	display: flex;
-}
-
-
-
-.pc-img {
-	width: 600px;
-	height: 343px;
-	display: block;
-}
-.slideshow-container {
-	max-width: 600px;
-	position: relative;
-}
-.mySlides {
-	display: none;
-}
-.prev, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-}
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-}
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-.dot-container {
-	position: absolute;
-	bottom: 0;
-	left: 46%;
-}
-.dot {
-	cursor: pointer;
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
-	background-color: #717171;
-}
-.fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-
-
-
-
-.pc-text {
-	background-color: #faeacb;
-	padding: 0px 40px 0px 40px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-.pc-text p {
-	width: 90%;
-	margin: 30px 0px;
-}
-.pc-h1 {
-	font-size: 48px;
-	font-family: "Great Vibes",cursive;
-}
-
-
-.p-bouquet {
-	display: flex;
-	flex-direction: row-reverse;
-	padding: 20px 40px;
-}
-.pb-img {
-	width: 600px;
-	height: 343px;
-}
-.pb-text {
-	background-color: #faeacb;
-	padding: 0px 40px 0px 40px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-.pb-text p {
-	width: 90%;
-	margin: 30px 0px;
-	text-align: right;
-}
-.pb-h1 {
-	font-size: 48px;
-	font-family: "Great Vibes",cursive;
-	text-align: right;
-}*/
 .p-head {
 	font-size: 32px;
+	font-weight: 500;
 	text-align: center;
 	margin-top: 40px;
 }
@@ -267,9 +148,11 @@ body {
 }
 .p-list {
 	padding: 0px 60px;
-	/*background-color: skyblue;*/
 	display: flex;
 	justify-content: space-between;
+}
+.p-list p {
+	font-weight: 500;
 }
 .card {
 	background-color: red;
@@ -278,12 +161,103 @@ body {
 }
 .card p {
 	text-align: center;
-	/*background-color: whitesmoke;*/
 }
 .card img {
 	width: 350px;
 	height: 250px;
 	object-fit: cover;
 }
-
+.list-bottom {
+	margin-bottom: 120px;
+}
 /* Product End */
+
+/* About Start */
+.a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #faeacb;
+}
+.a-intro {
+	width: 400px;
+	padding: 20px 0px;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 500;
+}
+.a-picture {
+	display: flex;
+	align-items: center;
+}
+.a-picture img {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+.profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0px 40px 20px 40px;
+	font-weight: 500;
+}
+/* About End */
+
+/* Contact Start */
+.c {
+	padding: 20px 60px;
+	display: flex;
+}
+.c-contact {
+	flex: 8;
+}
+.c-form {
+	flex: 4;
+}
+
+
+.c-contact a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.c-contact a, p {
+	font-size: 16px;
+	margin: 20px;
+}
+.c-contact-info {
+	margin: 20px;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+
+input[type=text], input[type=number], textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit] {
+	background-color: #faeacb;
+	color: black;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #45s049;
+}
+.c-form-container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+/* Contact End */
