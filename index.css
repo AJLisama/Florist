@@ -207,6 +207,17 @@ body {
 /* About End */
 
 /* Contact Start */
+
+.f-about {
+	background-color: red;
+}
+.f-follow {
+	background-color: orange;
+}
+.f-contact {
+	background-color: yellow;
+}
+
 /*.c {
 	padding: 20px 60px;
 	display: flex;
