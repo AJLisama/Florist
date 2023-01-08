@@ -19,6 +19,7 @@ body {
 	color: white;
 	width: 100%;
 	padding: 10px 60px;
+	position: fixed;
 }
 .n-logo2 {
 	height: 68px;
